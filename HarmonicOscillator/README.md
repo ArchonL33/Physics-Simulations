@@ -6,11 +6,11 @@ This project reflects both my technical foundation and my ongoing growth as I bu
 ## Damped Harmonic Oscillator Simulation
 A Python simulation and visualization of underdamped, overdamped, and critically damped harmonic oscillators using Euler's method.
 
-This project numerically solves the second-order differntial equation,
+This project numerically solves the second-order differential equation,
 
 - x'' + 2*y*x' + w^2x = 0
 
-by converting it into a system of first-order ODEs and integrating forward in time. The simulation also detects when each oscillator reaches equilibrium and compared how long each damping type takes to reach equilibrium.
+by converting it into a system of first-order ODEs and integrating forward in time. The simulation also detects when each oscillator reaches equilibrium and compares how long each damping type takes to reach equilibrium.
 
 ## Features
 - Simulates three damping types:
@@ -28,7 +28,7 @@ by converting it into a system of first-order ODEs and integrating forward in ti
 - `HarmonicOscillator.ipynb` — main notebook with simulation and plots.
 
 ## Physics Model
-In the notebook, I derive everything we need starting with Newton's Second Law and Hooke's Law. I delve more deeply in derivations explain each step I took. Having knowledge of Calculus and Ordinary Differential Equations isn't necessary, but it helpful in understanding each step.
+In the notebook, I derive everything we need starting with Newton's Second Law and Hooke's Law. I delve more deeply in derivations and explain each step I took. Having knowledge of Calculus and Ordinary Differential Equations isn't necessary, but it helpful in understanding each step.
  
 ## Requirements
 - Python 3
