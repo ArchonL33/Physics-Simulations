@@ -5,6 +5,7 @@ This project reflects both my technical foundation and my ongoing growth as I bu
 
 ## Projectile Motion with Quadratic Drag.
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ArchonL33/Physics-Simulations/blob/main/ProjectileMotion/HEAD?urlpath=%2Fdoc%2Ftree%2FProjectileMotion.ipynb)  
+
 A numerical simulation and visualization project using Python. This project models projectile motion under two conditions:
 - With quadratic air resistance (realistic physics)
 - Without air resistance (idealized parabola)
