@@ -70,28 +70,19 @@ The simulation solves a system of four coupled ODEs representing:
 
 </div>
 
-
 ### **Quadratic Drag Model**
 Drag force:
 
-$$
-\being{aligned}
-F_d = -c v^2
-\end{aligned}
-$$
-
+$F_d = -c v^2
 
 Resulting accelerations:
 
+<div align="center">
 
-$$
-\begin{aligned}
-\dot{v_x} = -\frac{c}{m} v v_x,\\
-\dot{v_y} = -g - \frac{c}{m} v v_y \\
-\end{aligned}
-$$
-
-
+$dot{v_x} = -\frac{c}{m} v v_x,\\
+$dot{v_y} = -g - \frac{c}{m} v v_y 
+  
+</div>
 
 ### **Ground Impact Detection**
 An event function stops integration when:
