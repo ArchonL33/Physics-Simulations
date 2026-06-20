@@ -70,7 +70,8 @@ Drag force:
 - $F_d = -c v^2$
 
 Resulting accelerations:  
-- $\dot{v_x} = -\frac{c}{m} v v_x \text{and } \dot{v_y} = -g - \frac{c}{m} v v_y$ 
+- ${a_x} = -\frac{c}{m} * v * v_x$
+- ${a_y} = -g - \frac{c}{m} * v * v_y$ 
   
 ### **Ground Impact Detection**
 An event function stops integration when:
