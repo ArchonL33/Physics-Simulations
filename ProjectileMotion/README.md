@@ -60,23 +60,22 @@ The simulation solves a system of four coupled ODEs representing:
 - Vertical velocity \( v_y \)
 
 ### **No‑Drag Model**
-
-• $\frac{dx}{dt} = v_x$ &nbsp;&nbsp;&nbsp;
-• $\frac{dy}{dt} = v_y$ &nbsp;&nbsp;&nbsp;
-• $\frac{dv_x}{dt} = 0$ &nbsp;&nbsp;&nbsp;
-• $\frac{dv_y}{dt} = -g$
+- $\frac{dx}{dt} = v_x$ &nbsp;&nbsp;&nbsp;
+- $\frac{dy}{dt} = v_y$ &nbsp;&nbsp;&nbsp;
+- $\frac{dv_x}{dt} = 0$ &nbsp;&nbsp;&nbsp;
+- $\frac{dv_y}{dt} = -g$
 
 ### **Quadratic Drag Model**
 Drag force:   
-  - $F_d = -c v^2$
+- $F_d = -c v^2$
 
 Resulting accelerations:  
-  - $\dot{v_x} = -\frac{c}{m} v v_x \text{and } \dot{v_y} = -g - \frac{c}{m} v v_y$ 
+- $\dot{v_x} = -\frac{c}{m} v v_x \text{and } \dot{v_y} = -g - \frac{c}{m} v v_y$ 
   
 ### **Ground Impact Detection**
 An event function stops integration when:
 
-  - $y(t) = 0$
+- $y(t) = 0$
 
 This allows accurate calculation of:
 
