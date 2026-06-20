@@ -74,9 +74,9 @@ $\dot{v_y} = -g$
 ### **Quadratic Drag Model**
 Drag force:
 
-
+\[
 F_d = -c v^2
-
+\]
 
 
 Resulting accelerations:
@@ -84,7 +84,7 @@ Resulting accelerations:
 
 \[
 \dot{v_x} = -\frac{c}{m} v v_x,\\
-\dot{v_y} = -g - \frac{c}{m} v v_y
+\dot{v_y} = -g - \frac{c}{m} v v_y \\
 \]
 
 
