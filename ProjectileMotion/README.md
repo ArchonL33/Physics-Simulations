@@ -62,30 +62,30 @@ The simulation solves a system of four coupled ODEs representing:
 ### **No‑Drag Model**
 
 
-\[
+$$
 \dot{x} = v_x,\\ 
 $\dot{y} = v_y,\\ 
 $\dot{v_x} = 0,\\ 
 $\dot{v_y} = -g$
-\]
+$$
 
 
 
 ### **Quadratic Drag Model**
 Drag force:
 
-\[
+$$
 F_d = -c v^2
-\]
+$$
 
 
 Resulting accelerations:
 
 
-\[
+$$
 \dot{v_x} = -\frac{c}{m} v v_x,\\
 \dot{v_y} = -g - \frac{c}{m} v v_y \\
-\]
+$$
 
 
 
