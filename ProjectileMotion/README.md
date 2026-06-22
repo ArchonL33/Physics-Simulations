@@ -40,7 +40,7 @@ It will also output the individual values for distance, speed, and energy when t
 ## Preview
 
 ### User Interface
-![UI](images/ui.png)
+![UI](images/ui_v2.png)
 
 ### Trajectory Comparison (Drag vs No Drag)
 ![Trajectory](images/trajectory.png)
