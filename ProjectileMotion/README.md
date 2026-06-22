@@ -22,9 +22,9 @@ Kinematics Derivations
 The notebook walks through the derivation of the four classical kinematic equations:
 
 - $v = v_0 + at$
-- $\delta{x} = \frac{1}{2}(v_0 + v)t$
-- $\delta{x} = v_0t + \frac{1}{2}a{t^2}$
-- ${v^2} = {v_0^2} + 2a\delta{x}$
+- $\Delta{x} = \frac{1}{2}(v_0 + v)t$
+- $\Delta{x} = v_0t + \frac{1}{2}a{t^2}$
+- ${v^2} = {v_0^2} + 2a\Delta{x}$
 
 These equations describe motion under constant acceleration, which applies to projectile motion without drag.
 
