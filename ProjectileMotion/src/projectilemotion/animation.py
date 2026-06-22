@@ -4,7 +4,7 @@
 # Contains controls to limit the frames of animation to improve generation time.
 # -----------------------------------------------------------------------------------------
  
- from matplotlib.animation import FuncAnimation
+from matplotlib.animation import FuncAnimation
  
 # Creates the projectile's marker and it's trail. 
  def initialize_animation(ax):

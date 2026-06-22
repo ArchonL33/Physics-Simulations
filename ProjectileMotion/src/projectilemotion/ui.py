@@ -13,6 +13,9 @@ from IPython.display import HTML, display
 from projectilemotion.solvers import update_simulation
 from projectilemotion.plotting import plot_simulation, figsize, dpi
 from projectilemotion.physics import percent_difference
+from projectilemotion.animation import create_animation
+
+plt.rcParams['animation.embed_limit'] = 50
 
 impact_values = widgets.Output()
 plot_output = widgets.Output()
@@ -178,8 +181,8 @@ def save_gif(b):
             m_slider.value, c_slider.value, y_0_slider.value,
             angle_slider.value, v_0_slider.value
         )
-        fig, anim = plot_simulation(results, nodrag_path_toggle.value)
-
+        fig, ax = plot_simulation(results, nodrag_path_toggle.value)
+        anim = create_animation(fig, ax, results)
         anim.save(filename, writer=PillowWriter(fps=30))
 
     dialog = file_save_notice(
