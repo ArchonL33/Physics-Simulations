@@ -1,0 +1,3 @@
+from projectilemotion.solvers import update_simulation
+from projectilemotion.plotting import plot_simulation
+from projectilemotion.animation import create_animation

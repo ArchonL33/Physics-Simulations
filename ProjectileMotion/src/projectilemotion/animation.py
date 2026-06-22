@@ -7,7 +7,7 @@
 from matplotlib.animation import FuncAnimation
  
 # Creates the projectile's marker and it's trail. 
- def initialize_animation(ax):
+def initialize_animation(ax):
  
     point_d, = ax.plot([], [], 'o', color='blue', markersize=11,
                        label="Projectile")
