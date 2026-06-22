@@ -1,7 +1,8 @@
 # Projectile Motion Simulator
 
-An interactive physics simulation that models projectile motion **with and without aerodynamic drag**.  
+An interactive physics simulation that models the 2D motion of a projectile when quadratic drag is present and not present.
 This tool visualizes trajectories, speed, and energy in real time using adjustable parameters and presets for common objects.
+It compares both values by outputting them through text and outputting them on the same plots.
 
 ---
 
@@ -88,14 +89,6 @@ This allows accurate calculation of:
 - Impact kinetic energy  
 
 ---
-
-## Features
-
-- Real‑time interactive plots  
-- Drag vs no‑drag comparison  
-- Speed and energy visualization  
-- Adjustable physical parameters  
-- Presets for real objects  
 - Clean UI with sliders and output panel  
 - Numerical integration using `scipy.integrate.solve_ivp`
 
