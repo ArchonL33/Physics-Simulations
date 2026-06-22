@@ -23,9 +23,8 @@ When clicking each projects link, if the plots do not load initally try running 
 
 - **Projectile Motion with Quadratic Drag** *(completed)*  
   Numerical integration of 2D projectile motion with and without air resistance, including visualization and parameter exploration.  
-  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ArchonL33/Physics-Simulations/blob/main/ProjectileMotion/HEAD?urlpath=%2Fdoc%2Ftree%2FProjectileMotion.ipynb)
   
-- **Harmonic Oscillators** *(completed)*  
+- **Harmonic Oscillators** *(in-progress)*  
   Simple, damped, and driven oscillators; phase‑space analysis; resonance behavior.
 
 - **Lorenz System**  
