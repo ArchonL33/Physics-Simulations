@@ -24,11 +24,13 @@ You can also select from several real‑world presets (baseball, soccer ball, sh
 
 ---
 
-## Try It Online
+## How to Run
 
-Launch the fully interactive version in your browser:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ArchonL33/Physics-Simulations/HEAD?labpath=ProjectileMotion%2Fprojectile_sim.ipynb) 
-No installation required.
+When the code loads, simply select a preset and press run. Doing so will generate the following plot.
+
+- Impact Distance, plot showing how far a projectile will travel before hitting the ground.
+- Impact Speed, plot showing how fast a projectile was moving when it impacted the ground.
+- Impact Energy, plot showing how much energy the projectile had when it struck the ground.
 
 ---
 
