@@ -32,7 +32,7 @@ When the code loads, simply select a preset or adjust the sliders and press the 
 - Impact Speed
 - Impact Energy
 
-It will also generate the distance, speed, and energy values when the projectile impacts the ground.
+It will also output the individual values for distance, speed, and energy when the projectile impacts the ground.
 
 ---
 
