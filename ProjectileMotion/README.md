@@ -6,7 +6,7 @@ It compares both values by outputting them through text and outputting them on t
 
 
 
-![AnimTrajectory](AnimatedTrajectory.gif)
+![AnimTrajectory](images/AnimatedTrajectory.gif)
 
 ---
 
@@ -50,7 +50,7 @@ It will also output the individual values for distance, speed, and energy when t
 ![Trajectory](images/trajectory.png)
 
 ### Angle vs. Max Range
-![Angle](Range_vs_LaunchAngle.png)
+![Angle](images/Range_vs_LaunchAngle.png)
 
 ---
 
