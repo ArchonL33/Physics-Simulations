@@ -10,7 +10,7 @@ import ipywidgets as widgets
 import matplotlib.pyplot as plt
 from matplotlib.animation import PillowWriter
 from IPython.display import HTML, display
-from projectilemotion.solvers import update_simulation
+from projectilemotion.solver import update_simulation
 from projectilemotion.plotting import plot_simulation, figsize, dpi
 from projectilemotion.physics import percent_difference
 from projectilemotion.animation import create_animation
