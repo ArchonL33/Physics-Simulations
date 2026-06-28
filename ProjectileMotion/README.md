@@ -53,6 +53,7 @@ pip install -e .
 from projectilemotion import run_simulation, plot_trajectory
 
 results = run_simulation(v0=50, angle=45, drag=True)
+
 plot_trajectory(results)
 
 See the notebooks/ProjectileMotion.ipynb for the full interactive demo.
