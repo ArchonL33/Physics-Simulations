@@ -1,17 +1,8 @@
-## Author's Note
-My background is in physics and mathematics, and the focus of this project is on accurate 
-modeling, numerical reasoning, and clear visualization of physical systems. I am actively 
-expanding my software engineering skills, so the code in this repository prioritizes clarity, 
-correctness, and transparency of the physics over optimization or advanced programming patterns.
-
-This project reflects both my technical foundation and my ongoing growth as I build more 
-experience with Python, numerical methods, and scientific computing.
-
----
-
 ## Damped Harmonic Oscillator Simulation
 A Python simulation and visualization of underdamped, overdamped, and critically damped 
 harmonic oscillators using both Euler and RK4 numerical integration methods.
+
+![animation.md](images/animation_v2.gif)
 
 This project numerically solves the second-order differential equation:
 
@@ -26,6 +17,8 @@ each damping case.
 ---
 
 ## Features
+- Analytical solution overlay for numerical validation.
+- Automatic equilibrium detection and markers.
 - Models three damping cases:
     - Underdamped ($\gamma < \omega$): oscillates with decaying amplitude.
     - Overdamped ($\gamma > \omega$): returns to equilibrium slowly without oscillating.
@@ -33,16 +26,31 @@ each damping case.
 - Two numerical integration methods:
     - Euler's method.
     - Fourth-order Runge-Kutta (RK4).
-- Analytical solution overlay for numerical validation.
-- Automatic equilibrium detection and markers.
-- Phase portrait (velocity vs. position).
-- Energy analysis (kinetic, potential, and total energy over time).
 - Interactive widget with sliders for:
     - Mass (m).
     - Spring Constant (k).
     - Damping Coefficient (b).
     - Integration method selection (Euler or RK4).
     - Snap to Critical Damping button.
+- Phase portrait (velocity vs. position).
+- Energy analysis (kinetic, potential, and total energy over time).
+- Driven Oscillator and Resonance Analysis.
+
+---
+
+## Gallery
+
+| Position Plot | Phase Portrait |
+|---|---|
+| ![position](images/position_plot_v2.png) | ![phase](images/phase_plot_v2.png) |
+
+| Energy Plot | Euler vs RK4 |
+|---|---|
+| ![energy](images/energy_plot.png) | ![euler_vs_rk4](images/euler_vs_rk4.png) |
+
+| Resonance Analysis | |
+|---|---|
+| ![resonance](images/resonance_plot.png) | |
 
 ---
 
@@ -66,6 +74,23 @@ Install all dependencies with:
 pip install numpy matplotlib ipywidgets
 ```
 ---
+
+## File Structure
+```
+HarmonicOscillator/
+├── docs/
+│   └── theory.MD
+├── images/
+│   ├── animation_v2.gif
+│   ├── position_plot_v2.png
+│   ├── phase_plot_v2.png
+│   ├── energy_plot.png
+│   ├── euler_vs_rk4.png
+│   └── resonance_plot.png
+├── notebooks/
+│   └── HarmonicOscillator.ipynb
+└── README.md
+```
 
 ## Quick Start
 1. Clone the repository.
