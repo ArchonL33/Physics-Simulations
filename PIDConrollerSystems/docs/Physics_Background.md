@@ -2,7 +2,7 @@
 Author: Zachary Lee
 <hr>
 
-This simulation will model a PID Controller controlling the output of a RLC Circuit. A PID Controller is a feedback control system that continuously measures the difference between where a system is and where it should be, and applies a corrective force to drive the system toward its goal. PID is an acronym for Proportional,Integral, and Derivative, where each term means the following:
+This simulation will model a PID Controller controlling the output of a RLC Circuit. A PID Controller is a feedback control system that continuously measures the difference between where a system is and where it should be, and applies a corrective force to drive the system toward its goal. PID is an acronym for Proportional, Integral, and Derivative, where each term means the following:
 
 1) Proportional (P): responds to the current error. The further the system is from its target, the harder the controller corrects.
 
