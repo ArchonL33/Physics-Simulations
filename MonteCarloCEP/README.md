@@ -1,10 +1,11 @@
 # Monte Carlo CEP Analysis
 
 A physics-based Monte Carlo simulation that models the statistical 
-dispersion of cannonball impacts under realistic launch uncertainty. 
-This project calculates the Circular Error Probable (CEP), which is a standard 
-metric in defense and ballistic systems analysis used to quantify the 
-accuracy of a weapons system.
+dispersion of projectile impacts under realistic launch uncertainty. 
+This project calculates the Circular Error Probable (CEP), which is
+the circular radius where 50% of projectiles are expect to impact.
+It is commonly used to analyse the accuracy of ballistic and missle systems,
+navigation systems (GPS), and radar systems.   
 
 ![CEP Animation](images/cep_animation.gif)
 
