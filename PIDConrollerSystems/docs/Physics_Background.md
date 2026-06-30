@@ -99,7 +99,7 @@ K_{d}\frac{de(t)}{dt} $$
 In a numerical simulation time is discretized into small steps of size $\Delta t$. Each term is approximated as follows:
 
 ### Proportional Term
-The proportional term requires no approximation — it is evaluated directly at each timestep:
+The proportional term requires no approximation, it is evaluated directly at each timestep:
 
 $$ u_P = K_p \cdot e(t) $$
 
@@ -111,7 +111,7 @@ $$ u_I = K_i \cdot \sum_{j=0}^{t} e(j) \cdot \Delta t $$
 In code this is implemented as a running accumulator that adds the current error multiplied by the timestep at each iteration:
 
 ### Derivative Term
-The continuous derivative is approximated using a backward finite difference — the change in error divided by the timestep:
+The continuous derivative is approximated using a backward finite difference, the change in error divided by the timestep:
 
 $$ u_D = K_d \cdot \frac{e(t) - e(t - \Delta t)}{\Delta t} $$
 
